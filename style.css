@@ -1,0 +1,176 @@
+body{
+    background: url("./photo-1593079831268-3381b0db4a77.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: burlywood; */
+    /* background: url("./photo-1593079831268-3381b0db4a77.avif"); */
+}
+
+    /* .container1{
+       
+    
+
+    } */
+   
+
+.container{
+    max-width: 80vw;
+  
+
+    
+}
+hr{
+    margin-top: 50px;
+}
+ul>li{
+    height: 6vh;
+
+}
+.navbar{
+    display: flex;
+    height: 34px;
+}
+
+.navbar>li{
+    list-style: none;
+  margin: 0px 7px;
+  font-size: 1.4rem;
+}
+.topleft{
+    width: 86%;
+    height: 30%;
+    
+}
+
+.topmiddle{
+    width: 50%;
+    height: 30%;
+}
+.topright{
+    width: 50%;
+    
+    height: 30%;
+}
+.section1{
+    /* height: 257px; */
+    height: 118%;
+    
+}
+.section1 h1{
+    font-size: 2em;
+    margin:5px
+}
+
+.section2{
+    padding: 60px;
+    /* margin: 500px; */
+    margin: 50px;
+
+}
+.margin{
+    margin: 2px;
+}
+
+.flexwrap{
+    flex-wrap: wrap;
+}
+
+.img{
+    position:absolute;
+    height: 36%;
+    width: 20%;
+    padding: 3px;
+    justify-content: center;
+    border: 2px solid silver;
+    overflow: wrap;
+}
+.dumbell{
+    width: 52px;
+align-self: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(120, 54, 16);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+   margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{ 
+    width: 23vw; 
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+} 
+
+.section3 table td{   
+    border-bottom: 2px solid black; 
+} 
+
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 13px;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+    background: thistle;
+    color: black;
+    border: 2px solid black;
+    font-size: 20px
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+}
+
+.deal{
+    font-size: 1.2rem;
+    font-weight: bolder;
+    margin: 12px 0;
+}
