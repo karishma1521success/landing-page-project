@@ -1,5 +1,9 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300&family=Edu+NSW+ACT+Foundation:wght@700&family=Edu+TAS+Beginner:wght@500&display=swap');
+
+
 body{
-    background: url("./photo-1593079831268-3381b0db4a77.avif");
+    background: url("./unsplash.jpg");
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -8,25 +12,25 @@ body{
 *{
     margin: 0;
     padding: 0;
-    /* background-color: burlywood; */
-    /* background: url("./photo-1593079831268-3381b0db4a77.avif"); */
+    
 }
 
-    /* .container1{
-       
-    
-
-    } */
-   
 
 .container{
-    max-width: 80vw;
-  
+    max-width: 80vw;   
+}
 
-    
+.quote{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: darkmagenta;
+    text-shadow: 2px;
+    font-family: 'Cormorant SC', serif;
+font-family: 'Edu NSW ACT Foundation', cursive;
+font-family: 'Edu TAS Beginner', cursive;
 }
 hr{
-    margin-top: 50px;
+    margin-top: 90px;
 }
 ul>li{
     height: 6vh;
@@ -41,6 +45,27 @@ ul>li{
     list-style: none;
   margin: 0px 7px;
   font-size: 1.4rem;
+  color: navy;
+  font-weight: bolder;
+  
+
+}
+
+a{
+    text-decoration: none;
+}
+ a:hover{
+    color: chocolate;
+ } 
+ 
+button:hover{
+   background-color:rgb(15, 245, 134); 
+    cursor: pointer;
+}
+   
+.navbar>li:hover{
+   
+    cursor: pointer;
 }
 .topleft{
     width: 86%;
@@ -64,7 +89,9 @@ ul>li{
 }
 .section1 h1{
     font-size: 2em;
-    margin:5px
+    margin:5px;
+    color: steelblue;
+
 }
 
 .section2{
@@ -75,6 +102,7 @@ ul>li{
 }
 .margin{
     margin: 2px;
+    font-size: 5rem;
 }
 
 .flexwrap{
@@ -119,7 +147,9 @@ align-self: center;
 }
 
 .box ul li{
-   margin: 12px 2px;
+    font-weight: bolder;
+    margin: 12px 2px;
+    font-size: 12px;
 }
 
 .plantable{
